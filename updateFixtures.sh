@@ -10,6 +10,5 @@ if [ -d "tests/fixtures" ]; then
   git merge $current_branch
   git push --set-upstream origin $version || true
   cd ../..
-  git submodule update --init
 fi
 
